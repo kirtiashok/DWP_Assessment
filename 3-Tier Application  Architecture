@@ -1,0 +1,20 @@
+Here's a cloud architecture diagram for hosting a 3-tier application in AWS. It includes the following components:
+
+1.Presentation Tier: Load Balancer, Web Servers for handling user requests.
+2.Application Tier: Application Servers and API Gateway for business logic processing.
+3.Data Tier: Database Cluster and Data Storage for persistent storage and access.
+
+
+Key strategies for high availability and scalability:
+Auto-scaling for Web and Application servers.
+Elastic Load Balancer (ELB) for traffic distribution.
+Database clustering and replication for fault tolerance.
+Security Considerations:
+IAM for access control.
+VPC for network isolation and secure communication.
+Encryption for data protection.
+
+Monitoring and management tools:
+AWS CloudWatch for monitoring and alerting.
+AWS Config and CloudTrail for configuration management and logging.
+This design ensures scalability, high availability, and robust security for the application.
